@@ -6,14 +6,14 @@ language: zh-Hans
 menu:
   Home: /
   Tags: /tags
-  Categories: 
+  Categories: /categories
   About: /about
 
 # customize your terminal panel
 terminal:
   home:
     - pwd:
-      cmd: ssh BLOG_URL
+      cmd: ssh https://lechatelier-lenz.github.io/lechatelierlenz.github.io
       outputs:
         - text: Welcome to Le Chatelier Lenz's Blog!
         - text: "xxx"
