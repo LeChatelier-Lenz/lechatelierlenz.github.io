@@ -12,20 +12,21 @@ base_info:
   primary_color: "#0066cc"
 
   # Blog website title
-  title: Keep Theme
+  title: LeChatelier-Lenz's Blog 
 
   # Blog website author name
-  author: Keep Team
+  author: Le Chatelier Lenz
 
   # Author avatar, You can use local image path or image link
-  avatar: /images/avatar.svg
+  avatar: https://avatars.githubusercontent.com/u/129300556?v=4
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/logo.svg
+  logo: https://avatars.githubusercontent.com/u/129300556?v=4
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/logo.svg
+  favicon: https://avatars.githubusercontent.com/u/129300556?v=4
 
+  mode: dark
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/menu.html
