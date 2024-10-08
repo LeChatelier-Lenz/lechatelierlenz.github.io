@@ -26,8 +26,6 @@ base_info:
   # Website favicon, You can use local image path or image link
   favicon: https://avatars.githubusercontent.com/u/129300556?v=4
 
-  mode: dark
-
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/menu.html
 # ---------------------------------------------------------------------------------------
