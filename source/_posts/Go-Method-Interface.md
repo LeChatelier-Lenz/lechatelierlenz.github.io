@@ -1,7 +1,7 @@
 ﻿---
 title: Go-Method+Interface
 date: 2024-10-09 11:04:30
-tags: Go
+tags: Go 
 ---
 # 方法和接口
 
