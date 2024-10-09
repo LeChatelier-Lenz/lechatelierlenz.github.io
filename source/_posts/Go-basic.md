@@ -1,8 +1,10 @@
----
+﻿---
 title: Go-basic
 date: 2024-10-09 11:02:24
 tags:
+updated: 2024-10-09 11:07:47
 ---
+
 
 
 > 本"Go-"系列记录了Golang学习的一些笔记摘要，内容主要影响自[Go 语言之旅 (go-zh.org)](https://tour.go-zh.org/list)
