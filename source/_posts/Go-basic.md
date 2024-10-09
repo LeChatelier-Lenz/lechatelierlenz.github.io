@@ -1,14 +1,9 @@
 ﻿---
 title: Go-basic
 date: 2024-10-09 11:02:24
-tags:
-updated: 2024-10-09 11:07:47
+tags: Go
 ---
-
-
-
 > 本"Go-"系列记录了Golang学习的一些笔记摘要，内容主要影响自[Go 语言之旅 (go-zh.org)](https://tour.go-zh.org/list)
-
 
 # 基础部分
 
@@ -169,7 +164,7 @@ func fibonacci() func() int {
 	    r := a + b
 	    a, b = b, a + b
 		return r
-	
+
 	}
 }
 
@@ -908,25 +903,21 @@ func main() {
   ```go
   m[key] = elem
   ```
-
   获取元素：
 
   ```go
   elem = m[key]
   ```
-
   **删除元素**：
 
   ```go
   delete(m, key)
   ```
-
   通过**双赋值**检测某个键**是否存在**：
 
   ```go
   elem, ok = m[key]//映射的双返回
   ```
-
   ***若 `key` 在 `m` 中，`ok` 为 `true` ；否则，`ok` 为 `false`。***
 
   若 `key` 不在映射中，那么 `elem` 是该映射元素类型的零值。

@@ -3,11 +3,8 @@ title: NAoutlines
 date: 2024-10-09 21:10:03
 tags: numerical analysis
 mathjax: true
-updated: 2024-10-09 21:56:23
 ---
-
 > 说明，本笔记为NA（23秋冬数值分析）课程的总结笔记，包含了整个课程的总体内容介绍，比较浅层；
-
 
 # The Outline of Numerical Analysis
 
