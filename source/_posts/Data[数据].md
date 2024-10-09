@@ -1,6 +1,7 @@
 ---
 title: 机器学习与数据分析中的“数据”
 tag: Data Analysis
+date: ‎2024-10-09 0‏‎0:43:04
 mathjax: true
 ---
 # Data[数据分析中的“数据”]
@@ -12,7 +13,7 @@ mathjax: true
 > **objects** and their **attributes**
 
 - collection of **data objects** and their **attributes**
-- an attribute is `<u>`a property or characteristic of an object`</u>`
+- an attribute is `<u>`a property or characteristic of an object `</u>`
 
   - **Attribute**：也被描述为variable/filed/characteristic/feature
 - A collection of attributes **describe an object**
