@@ -8,7 +8,7 @@ mathjax: true
 
 # The Outline of Numerical Analysis
 
-<img src=".\NAoutlines\image1.png" alt="image-20240107160212915" style="zoom: 40%;" />
+<img src="NAoutlines/image1.png" alt="image-20240107160212915" style="zoom: 40%;" />
 
 ## Chapter 1
 
@@ -156,7 +156,7 @@ mathjax: true
     - not easy to **obtain so many derivatives**
 - Cubic Spline(degree-3)
 
-  <img src="NAoutlines\image2.png" alt="image-20240107112846002" style="zoom:50%;" />
+  <img src="NAoutlines/image2.png" alt="image-20240107112846002" style="zoom:50%;" />
 
   - the general version:
     - $S_j(x) = a_j+b_j(x-x_j)+c_j(x-x_j)^2+d_j(x-x_j)^3,\quad x \in [x_j,x_{j+1}]$
@@ -243,7 +243,7 @@ mathjax: true
 
 ### Romberg Integration
 
-<img src="NAoutlines\image3.png" alt="image-20240107154849455" style="zoom:50%;" /><img src="NAoutlines\image4.png" alt="image-20240107154903224" style="zoom:50%;" />
+<img src="NAoutlines/image3.png" alt="image-20240107154849455" style="zoom:50%;" /><img src="NAoutlines/image4.png" alt="image-20240107154903224" style="zoom:50%;" />
 
 - Romberg sequence
 - **algorithm: Romberg Method**
@@ -262,7 +262,7 @@ mathjax: true
 
 > use orthogonal polynomials to approximate the integration
 
-<img src="NAoutlines\image5.png" alt="image-20240107130924174" style="zoom:50%;" />
+<img src="NAoutlines/image5.png" alt="image-20240107130924174" style="zoom:50%;" />
 
 - the original way of computing the constants $A_k$ and $x_k$
 - using orthogonal polynomials to find Gaussian points(the roots)
@@ -350,4 +350,4 @@ implicit when $b_m\ne0$, explicit when $b_m=0$
 
 - characteristic equation(or matrix)
   - the root condition is a judgement by the eigenvalue of the characteristic eqautions
-- <img src="NAoutlines\image6.png" alt="image-20240107153818512" style="zoom:50%;" />
+- <img src="NAoutlines/image6.png" alt="image-20240107153818512" style="zoom:50%;" />
