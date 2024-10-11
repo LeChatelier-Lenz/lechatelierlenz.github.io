@@ -20,12 +20,8 @@ jobs:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "20"
-      - name: Install pandoc
-        uses: pandoc/actions/setup@{main}
-        with:
-          version: 2.19
-      - name: Run pandoc
-        run: pandoc --version
+      - name: Setup pandoc
+        uses: nikeee/setup-pandoc@master
       - name: Cache NPM dependencies
         uses: actions/cache@v4
         with:
