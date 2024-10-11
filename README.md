@@ -32,3 +32,4 @@
 - `npm install hexo-asset-img --save` 安装图像路径处理的依赖包，可以使得远程部署后图像能够正常处理
 - 最后需要确保本地路径设置时的正确性，需要按照：
   `<img src="{同名文件夹目录名}/{图片名字} />"的格式进行更改`
+- `hexo-renderer-markdown-it-plus` 的抽象渲染问题：inline latex在 $$的末尾前要多一个空格，否则会出现渲染两遍的问题
