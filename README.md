@@ -22,12 +22,15 @@
             run: find source/_posts -name '*.md' | while read file; do touch -d "$(git log -1 --format="@%ct" "$file")" "$file"; done
     ```
 
-### Latex渲染问题【2024/10/10】
+### Latex渲染问题【2024/10/12】
 
 - 详见keep官方文档的解释[MathJax 数学公式 | Keep 主题使用手册 (xpoet.cn)](https://v3.keep-docs.xpoet.cn/writing/mathjax.html#latex-%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98)
 - ~~`hexo-renderer-markdown-it-plus` 的抽象渲染问题：inline latex在 $$的末尾前要多一个空格，否则会出现渲染两遍的问题~~
 - 需要把渲染文件更改为`hexo-renderer-pandoc`, 其他的包括`-marked,-markdown-it-plus,-ramed`都不行
 - 注意一定要在文章front-matter处添加`mathjax: true`
+- 最最**的是，pandoc是一个需要本地安装的渲染程序，因此在Github Action部署时需要额外添加pandoc setup操作，可以在更改`.yml`文件时在右边marketplace直接搜索到[一个好用的actions](https://github.com/marketplace/actions/pandoc-document-converter)
+
+
 
 ### 图像呈现问题【2024/10/11】
 
@@ -35,4 +38,3 @@
 - `npm install hexo-asset-img --save` 安装图像路径处理的依赖包，可以使得远程部署后图像能够正常处理
 - 最后需要确保本地路径设置时的正确性，需要按照：
   `<img src="{同名文件夹目录名}/{图片名字} />"的格式进行更改`
-
